@@ -5,31 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template - Utilizar como modelo</title>
+    <!-- Link para o arquivo CSS base -->
     <link rel="stylesheet" href="base.css">
+    <!-- Link para a biblioteca Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="wrapper">
         <div class="menu">
-            <!-- Aqui vai o seu menu -->
+            <!-- Menu lateral -->
+            <img src="WesleyMenezes2108/trilha-html-modulo-2/Imagens/Logo pet.png" alt="Logo Pet Shop Elegance Pet shop">
+            
             <ul>
-                <li><a href="#">Link</a></li>
+                <li><a href="WesleyMenezes2108/trilha-html-modulo-2/01-index.html">Pagina Inicial</a></li>
+                <br>
+                <li><a href="WesleyMenezes2108/trilha-html-modulo-2/02-Sobre_a_Clinica.html">Sobre Nós</a></li>
+                <br>
+                <li><a href="WesleyMenezes2108/trilha-html-modulo-2/03-Horarios.html">Horarios de Atendimento</a></li>
+                <br>
+                <li><a href="WesleyMenezes2108/trilha-html-modulo-2/04-Contato.html">Contato</a></li>
             </ul>
         </div>
 
         <div class="main">
             <div class="header">
-                Header
-                <!-- Aqui vai o seu header -->
+                <!-- Cabeçalho -->
+                
+                <img src="/trilha-html-modulo-2/Imagens/240_F_855452678_uR80Rdbn7RihyqJdq9txIfJ98ef5DhKB.jpg" alt="imagem de animais de pet shop">
             </div>
-    
+        
             <div class="content">
-                Content
-                <!-- Aqui vai o seu conteúdo -->
+                <!-- Conteúdo principal -->
+                <div class="container">
+                  <h1>Contato</h1>
+                  <div class="contact-info">
+                    <!-- Informações de contato -->
+                    <p><strong>Telefones de Contato:</strong></p>
+                    <p>Celular: (49) 91234-5678</p>
+                    <p><i class="fab fa-whatsapp"></i> WhatsApp: (49) 91234-5678 </p>
+                        
+                    <p><strong>Endereço:</strong></p>
+                    <p>Rua Tres de maio, 123, Bairro Centro, Cidade Ponte Serrada, SC, 89683-000</p>
+                </div>
+                <!-- Iframe do Google Maps -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10067.25085814577!2d-52.0328055063806!3d-26.8618688429069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e460180fd1908d%3A0xab41a35b1deb728b!2sPte.%20Serrada%2C%20SC%2C%2089683-000%2C%20Brasil!5e0!3m2!1spt-BR!2sus!4v1734114544634!5m2!1spt-BR!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- Formulário de contato -->
+                <form>
+                  <label for="name">Nome:</label>
+                  <input type="text" id="name" name="name" required>
+            
+                  <label for="email">E-mail:</label>
+                  <input type="email" id="email" name="email" required>
+            
+                  <label for="subject">Assunto:</label>
+                  <input type="text" id="subject" name="subject" required>
+            
+                  <label for="message">Mensagem:</label>
+                  <textarea id="message" name="message" rows="4" required></textarea>
+            
+                  <button type="submit" class="submit-btn">Enviar</button>
+                  <button type="reset" class="reset-btn">Limpar Formulário</button>
+                </form>
             </div>
+        </div>
     
             <div class="footer">
-                Footer
-                <!-- Aqui vai o seu rodapé -->
+                <!-- Rodapé -->
+                <p>&copy; 2024 <b>Elegance Pet shop</b>. Todos os direitos reservados.</p>
+                <p>&#128187 Desenvolvido por <a href="https://github.com/WesleyMenezes2108" target="_blank">Wesley Menezes</a></p>
             </div>
         </div>
     </div>
